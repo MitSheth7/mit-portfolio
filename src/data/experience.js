@@ -31,7 +31,7 @@ export const JOBS = [
     bullets: [
       "Built reusable React components resolving accessibility issues for 1,000,000+ users with disabilities across RBC's core platforms.",
       "Created a Node.js CLI in TypeScript to automate accessibility audits, cutting front-end debugging time by 60%.",
-      "Built JS integration test suites with PostgreSQL, improving coverage from 45% → 78% and cutting test runtime by 5 hours/cycle.",
+      "Developed JS integration test suites with PostgreSQL, improving coverage from 45% → 78% and cutting test runtime by 5 hours/cycle.",
     ],
     skills: ["React", "TypeScript", "Node.js", "PostgreSQL", "Accessibility"],
   },
