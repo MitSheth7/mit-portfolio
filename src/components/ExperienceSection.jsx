@@ -42,53 +42,8 @@ export function ExperienceSection() {
                 }}>
                 {j.logo === "🚀" ? (
                   <span style={{ fontSize: "1.8rem", paddingLeft: "20px" }}>🚀</span>
-                ) : j.co === "Royal Bank of Canada" ? (
-                  <img 
-                    src={j.logo} 
-                    alt={`${j.co} logo`}
-                    style={{ 
-                      width: "80px", 
-                      height: "80px", 
-                      objectFit: "contain",
-                      borderRadius: "10px"
-                    }}
-                  />
-                ) : j.co === "Manulife" ? (
-                  <img 
-                    src={j.logo} 
-                    alt={`${j.co} logo`}
-                    style={{ 
-                      width: "50px", 
-                      height: "50px", 
-                      objectFit: "contain",
-                      borderRadius: "8px",
-                      paddingLeft: "10px"
-                    }}
-                  />
-                ) : j.co === "AIM Defence" ? (
-                  <img 
-                    src={j.logo} 
-                    alt={`${j.co} logo`}
-                    style={{ 
-                      width: "50px", 
-                      height: "50px", 
-                      objectFit: "contain",
-                      borderRadius: "8px",
-                      paddingLeft: "10px"
-                    }}
-                  />
                 ) : (
-                  <img 
-                    src={j.logo} 
-                    alt={`${j.co} logo`}
-                    style={{ 
-                      width: "40px", 
-                      height: "40px", 
-                      objectFit: "contain",
-                      borderRadius: "6px",
-                      paddingLeft: "20px"
-                    }}
-                  />
+                  <span style={{ fontSize: "1.8rem", paddingLeft: "20px" }}>{j.logo}</span>
                 )}
                 <div>
                   <div>{j.co}</div>
