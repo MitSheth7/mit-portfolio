@@ -9,7 +9,7 @@ export const JOBS = [
     skills: ["Go-to-Market", "Investor Relations", "AI Tooling", "B2B Sales"],
   },
   {
-    co: "Manulife", period: "Apr – Aug 2025", location: "Toronto, ON", role: "Software Engineer Intern", logo: "/src/assets/Manulife logo.webp",
+    co: "Manulife", period: "Apr – Aug 2025", location: "Toronto, ON", role: "Software Engineer Intern", logo: "🏦",
     bullets: [
       "Built an automated PDF policy parser in Python/Go, saving ~40 hours/week of manual processing for operations.",
       "Built claims portal UI in Vue.js + TypeScript — 65% faster page loads, 30% fewer validation errors.",
@@ -18,7 +18,7 @@ export const JOBS = [
     skills: ["Python", "Go", "Vue.js", "TypeScript", "React"],
   },
   {
-    co: "AIM Defence", period: "Jan – Apr 2025", location: "Vancouver, BC", role: "Software Engineer Intern", logo: "/src/assets/Aim defence Logo.webp",
+    co: "AIM Defence", period: "Jan – Apr 2025", location: "Vancouver, BC", role: "Software Engineer Intern", logo: "🛡️",
     bullets: [
       "Wrote C++ modules for coordinate transforms between camera and world-space, feeding real-time position data at 30+ FPS.",
       "Built a Go tool to auto-detect annotation issues across 200,000+ drone training samples.",
@@ -27,7 +27,7 @@ export const JOBS = [
     skills: ["C++", "Go", "Docker", "Computer Vision", "ML Pipelines"],
   },
   {
-    co: "Royal Bank of Canada", period: "Sep – Dec 2024", location: "Toronto, ON", role: "Software Engineer Intern", logo: "/src/assets/RBC Logo.png",
+    co: "Royal Bank of Canada", period: "Sep – Dec 2024", location: "Toronto, ON", role: "Software Engineer Intern", logo: "🏦",
     bullets: [
       "Built reusable React components resolving accessibility issues for 1,000,000+ users with disabilities across RBC's core platforms.",
       "Created a Node.js CLI in TypeScript to automate accessibility audits, cutting front-end debugging time by 60%.",
