@@ -452,7 +452,7 @@ function ContactSection() {
           <Reveal delay={0.2}>
             <div>
               {[
-                ["LinkedIn", "Connect professionally", "https://www.linkedin.com/in/mitsheth"],
+                ["LinkedIn", "Connect professionally", "https://www.linkedin.com/in/mitsheth7/"],
                 ["GitHub", "See the code", "https://github.com/MitSheth7"],
                 ["Times AI", "Download the app", "https://apps.apple.com/ca/app/times-ai/id6754301554"],
               ].map(([label, sub, href], i) => (
